@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/book_name"
+            android:textStyle="normal"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/et_view_by_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp">
+        <Button
+            android:id="@+id/b_p_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cfrom"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/tv_c_from"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/s_date"
+            android:gravity="center"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp">
+        <Button
+            android:id="@+id/b_p_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cto"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/tv_c_to"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/s_date"
+            android:gravity="center"
+            />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp">
+        <Button
+            android:id="@+id/b_view_record"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/v"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:id="@+id/b_v_can"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/can"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+
+
+</LinearLayout>

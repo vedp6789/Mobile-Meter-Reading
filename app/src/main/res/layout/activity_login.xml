@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5FFFA">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="100dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:text="@string/user_id"
+            android:id="@+id/textview_user_login" />
+        <EditText
+            android:background="#FFFFFF"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:id="@+id/edittext_user_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:inputType="number"
+            android:maxLength="4"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp"
+        >
+        <Button
+            android:layout_margin="2dp"
+            android:id="@+id/button_validate_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/val"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:layout_weight="1"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_margin="2dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/et"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:layout_weight="1"
+            android:id="@+id/button_exit"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        </LinearLayout>
+
+
+</LinearLayout>

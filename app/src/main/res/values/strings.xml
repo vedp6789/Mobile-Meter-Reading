@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MMR</string>
+    <string name="app_login">MMR-Login</string>
+    <string name="app_activity">MMR-Objective</string>
+    <string name="app_reading_type">MMR-Reading Type</string>
+    <string name="app_reading">Domestic Meter Reading</string>
+    <string name="app_status">MMR-Status</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="acc_valid_dialog_title">Validation</string>
+    <string name="app_reading_HTC">HTC-Meter Reading</string>
+    <string name="app_reading_LTP">LTP-Meter Reading</string>
+    <string name="htc_ob">HTC-Objective</string>
+    <string name="ltp_ob">LTP-Objective</string>
+    <string name="htc_stat">HTC-Status</string>
+    <string name="ltp_stat">LTP-Status</string>
+
+
+
+    <string name="Normal">NORMAL</string>
+    <string name="Defective" >DEFECTIVE</string>
+    <string name="Lock">LOCK</string>
+    <string name="NO_Meter">NO METER </string>
+    <string name="Dial_Complete">DIAL COMPLETE</string>
+    <string name="Power_OFF">POWER OFF</string>
+    <string name="NO_DISP">NO DISPLAY</string>
+    <string name="Untraced">UNTRACED</string>
+
+    <string name="not_selected">SELECT</string>
+    <string name="digit">DIGITAL</string>
+    <string name="elect">ELECTROMECHANICAL</string>
+    
+    <string name="month">Month</string>
+    <string name="jan">Jan</string>
+    <string name="feb">Feb</string>
+    <string name="mar">Mar</string>
+    <string name="apr">Apr</string>
+    <string name="may">May</string>
+    <string name="jun">Jun</string>
+    <string name="jul">Jul</string>
+    <string name="aug">Aug</string>
+    <string name="sep">Sep</string>
+    <string name="oct">Oct</string>
+    <string name="nov">Nov</string>
+    <string name="dec">Dec</string>
+
+    <string name="year">Year</string>
+    <string name="y1">2014</string>
+    <string name="y2">2015</string>
+    <string name="y3">2016</string>
+    <string name="y4">2017</string>
+    <string name="y5">2018</string>
+    <string name="y6">2019</string>
+    <string name="y7">2020</string>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <string name="final_disconnection">FINAL DISCONNECTION</string>
+    <string name="low_consume">VERY LOW CONSUMPTION</string>
+    <string name="reading_visibility">READING NOT VISIBLE</string>
+    <!--<string name="meter_state">METER RUNNING/BILLED IN DEFECTED</string>-->
+    <string name="meter_height">METER IS ON HEIGHT</string>
+    <string name="accessible">EASILY NOT ACCESSIBLE</string>
+    <string name="seal">SEAL BROKEN</string>
+    <string name="theft">DOUBT OF THEFT</string>
+
+
+    <string-array name="meter_status">
+        <item>@string/Normal</item>
+        <item>@string/Defective</item>
+        <item>@string/Lock</item>
+        <item>@string/Dial_Complete</item>
+        <item>@string/NO_Meter</item>
+        <item>@string/Power_OFF</item>
+        <item>@string/NO_DISP</item>
+        <!--<item>@string/Untraced</item>-->
+    </string-array>
+    <string-array name="Remark">
+        <item>@string/Normal</item>
+        <!--<item>@string/no_trace</item>-->
+        <item>@string/reading_visibility</item>
+        <item>@string/final_disconnection</item>
+        <!--<item>@string/meter_state</item>-->
+        <item>@string/meter_height</item>
+        <item>@string/seal</item>
+        <item>@string/low_consume</item>
+        <!--<item>@string/accessible</item>-->
+        <item>@string/theft</item>
+    </string-array>
+    <string-array name="meter_type">
+        <item>@string/digit</item>
+        <item>@string/elect</item>
+    </string-array>
+    <string-array name="month">
+        <item>@string/month</item>
+        <item>@string/jan</item>
+        <item>@string/feb</item>
+        <item>@string/mar</item>
+        <item>@string/apr</item>
+        <item>@string/may</item>
+        <item>@string/jun</item>
+        <item>@string/jul</item>
+        <item>@string/aug</item>
+        <item>@string/sep</item>
+        <item>@string/oct</item>
+        <item>@string/nov</item>
+        <item>@string/dec</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>@string/year</item>
+        <item>@string/y1</item>
+        <item>@string/y2</item>
+        <item>@string/y3</item>
+        <item>@string/y4</item>
+        <item>@string/y5</item>
+        <item>@string/y6</item>
+        <item>@string/y7</item>
+
+
+
+    </string-array>
+
+
+    <string name="upload_dialog_title">Server upload</string>
+    <string name="download_dialog_title">Download</string>
+    <string name="book_name">Book No.:</string>
+    <string name="boo_no">Book Number</string>
+    <string name="rout_no">Route Code</string>
+    <string name="met_read">Meter Reading</string>
+    <string name="name">Name</string>
+    <string name="cgl_no">Cgl Number</string>
+    <string name="meter_stat">Meter Status</string>
+    <string name="meter_stat_ht">Meter Status-HT</string>
+    <string name="meter_stat_lt">Meter Status-LT</string>
+    <string name="remarks">Remark</string>
+    <string name="remarks_ht">Remark-HT</string>
+    <string name="remarks_lt">Remark-LT</string>
+    <string name="met_type">Meter Type</string>
+    <string name="met_type_ht">Meter Type-HT</string>
+    <string name="met_type_lt">Meter Type-LT</string>
+    <string name="imge">Image</string>
+    <string name="commit">Submit</string>
+    <string name="consumers">No. of Consumers:</string>
+    <string name="consumers2">Completed: </string>
+    <string name="consumers3">Remaining: </string>
+    <string name="consumers4">LOCK status: </string>
+    <string name="consumers5">NO METER status:</string>
+    <string name="consumers6">POWER OFF status:</string>
+    <string name="consumer7">NO DISPLAY status:</string>
+    <string name="date">Date of download:</string>
+    <string name="user_id">User Id. :</string>
+    <string name="license">License No. :</string>
+    <string name="imei_no">IMEI No. :</string>
+    <string name="b_login">Validate</string>
+    <string name="conn_id">Connection Id. :</string>
+    <string name="con_id">Conn. Id.:</string>
+    <string name="stt">Status</string>
+    <string name="dd">Download</string>
+    <string name="ob">Obtain</string>
+    <string name="red">Reading</string>
+    <string name="ud">Upload</string>
+    <string name="hp">About</string>
+    <string name="et">Exit</string>
+    <string name="meter_no">Meter number</string>
+    <string name="book_to_upd">Upload Book No.</string>
+    <string name="book_to_dd">Download Book No.</string>
+    <string name="area_to_dd">Download Area</string>
+    <string name="read_by_coonId">By Connection Id.</string>
+    <string name="read_by_Book">By Book No.</string>
+    <string name="submit_cont">Save and Continue Reading</string>
+    <string name="submit_exit">Save and Exit</string>
+    <string name="view_reading">View</string>
+    <string name="sc_no">Connection Id.:</string>
+    <string name="route_no_lock">Route No.:</string>
+<string name="msg">Record Viewer</string>
+    <string name="can">Cancel</string>
+    <string name="search">Search</string>
+    <string name="del">Delete</string>
+    <string name="val">Validate</string>
+    <string name="cfrom">Pick From</string>
+    <string name="cto">Pick To</string>
+    <string name="s_date">Select Date</string>
+    <string name="v">View</string>
+    <string name="ds">Download status</string>
+    <string name="domestic">Domestic</string>
+    <string name="htc">HTC</string>
+    <string name="ltc">LTP</string>
+    <string name="eldept">Electricity Department Daman</string>
+    <string name="title">Mobile Meter Reading</string>
+    <string name="t_ab1">Mobile Meter Reading Apps</string>
+    <string name="t_ab2">Developed by:</string>
+    <string name="t_ab3">NSPS Pvt Ltd</string>
+    <string name="t_ab4">For Technical Detail Please Contact</string>
+    <string name="t_ab5">Mobile no: </string>
+    <string name="t_ab6">e-mail: mmrapps@nsps.co.in</string>
+    <string name="t_ab7">Visit: www.nsps.co.in </string>
+    <string name="t_ab8">copyright nsps pvt ltd@ 2014</string>
+    <string name="r_by_cgl">By CGL No./Connection Id.</string>
+    <string name="et_cgl_no">CGL No./Connection Id.</string>
+    <string name="rem">Remark 1</string>
+    <string name="rem_ht">Remark 1-HT</string>
+    <string name="rem_lt">Remark 1-LT</string>
+    <string name="s_cgl">CGL</string>
+    <string name="s_conn">Conn Id.</string>
+    <string name="book_for">MMR for:</string>
+    <string name="area_for">MMR for:</string>
+    <string name="main_m">Main Meter</string>
+    <string name="check_m">Check Meter</string>
+    <string name="htc_name">HTC Name</string>
+    <string name="ltp_name">LTP Name</string>
+    <string name="a_code">Area Code</string>
+    <string name="area_code">Area Code:</string>
+    <string name="a_code:">Area Code:</string>
+    <string name="kw_ht">KW-HT</string>
+    <string name="kva_ht">KVA-HT</string>
+    <string name="kwh_ht">KWH-HT</string>
+    <string name="kvah_ht">KVAH-HT</string>
+    <string name="kvarh_ht">KVARH-HT</string>
+    <string name="zone1_ht">Zone 1-HT</string>
+    <string name="zone2_ht">Zone 2-HT</string>
+    <string name="zone3_ht">Zone 3-HT</string>
+    <string name="kw_lt">KW-LT</string>
+    <string name="kva_lt">KVA-LT</string>
+    <string name="kwh_lt">KWH-LT</string>
+    <string name="kvah_lt">KVAH-LT</string>
+    <string name="kvarh_lt">KVARH-LT</string>
+    <string name="kw">KW</string>
+    <string name="kva">KVA</string>
+    <string name="kwh">KWH</string>
+    <string name="kvah">KVAH</string>
+    <string name="kvarh">KVARH</string>
+    <string name="zone1">Zone 1</string>
+    <string name="zone2">Zone 2</string>
+    <string name="zone3">Zone 3</string>
+    <string name="htc_con">Consumer Id.</string>
+    <string name="ltp_con">Consumer Id.</string>
+    <string name="ltp_name1">Name:</string>
+    <string name="ltp_consumer_id">Consumer Id.:</string>
+    <string name="m_r">Scroll Down</string>
+    <string name="area_to_upld">Upload via Area</string>
+    <string name="read_by_cons">By Consumer Id.</string>
+    <string name="read_by_area">By Area</string>
+    <string name="ltp_reading_type">LTP-Reading Type</string>
+    <string name="htc_reading_type">HTC-Reading Type</string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/et_route_no_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/book_to_upd"
+        android:inputType="number"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/b_upload"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ud"
+            android:gravity="start"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/b_uploadDialogCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/can"
+            android:gravity="start"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
